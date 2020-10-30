@@ -1,7 +1,7 @@
 from telegram.ext import Updater
 from telegram import ParseMode
 from sisa_scraper_telegram import *
-updater = Updater(token='1303913725:AAHMWBWtbX61aJvO2bUEzpSiCf8hWQN2f14', use_context=True)
+updater = Updater(token='TOKEN', use_context=True)
 dispatcher = updater.dispatcher
 
 import logging
